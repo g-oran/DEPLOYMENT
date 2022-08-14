@@ -1,0 +1,8 @@
+<apex:page controller="MyCustomController">
+    <apex:pageBlock title="Custom Controller">
+        <apex:pageBlockSection >
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputField value="{!Account.Id}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

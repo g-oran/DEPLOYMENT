@@ -1,0 +1,63 @@
+<apex:page >
+    <apex:tabPanel >
+      <apex:tab label="A Tab">
+          <apex:form >
+              <p>First Name: <apex:inputText styleClass="test1, test"/></p>
+                <p>Last Name: <apex:inputText styleClass="test"/></p>
+                <p>SSN Nu:<apex:inputSecret styleClass="test"/></p> 
+                <p>Are you a Developer? <apex:inputCheckbox styleClass="test"/></p>
+                <p>Write your experinece:<apex:inputTextarea styleClass="test"/></p>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p>Upload your resume: <apex:inputFile value="Upload File" styleClass="test"></apex:inputFile></p>
+                <br></br>
+                <apex:outputLabel >Click here to see Salesforce webpage:</apex:outputLabel>
+                <apex:outputLink value="https://www.salesforce.com">Salesforce</apex:outputLink>
+             
+                <p><apex:commandButton value="Save"/>
+                <apex:commandButton value="Cancel"/></p>
+             
+                 <style>
+                 .test{
+                     position: absolute;
+                     left: 150px;
+                     color: blue;
+                     background-color: grey;
+                 }
+                 
+                  .test1{
+                     position: absolute;
+                     left: 150px;
+                     color: blue;
+                 }
+                 
+                 </style>
+        
+          </apex:form>
+      </apex:tab>
+      
+      <apex:tab label="B Tab">
+           <apex:form >
+    <apex:pageBlock title="First Block">
+   
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save"/>
+            <apex:commandButton value="Cancel"/>
+        </apex:pageBlockButtons>
+  
+        <apex:pageBlockSection title="BS 1">
+            <apex:pageBlockSectionItem ><h1>Hello</h1></apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >World</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >Test1</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >Test2</apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="BS 2">Block Section-2</apex:pageBlockSection>    
+    </apex:pageBlock>
+  </apex:form>
+    <apex:pageBlock title="Second Block"></apex:pageBlock>
+      </apex:tab>
+      <apex:tab label="C Tab">C Tab</apex:tab>
+    </apex:tabPanel>
+  
+</apex:page>

@@ -1,0 +1,9 @@
+public class BodyMass {
+    public static Decimal calculateBMI(Integer kg, Decimal ht){
+        return kg / (ht * ht);
+    }
+        public static String calculateBMI(String firstName, String lastName){
+        String fullName = firstName + ' ' + lastName;        
+        return fullName.toUpperCase();
+    }
+}

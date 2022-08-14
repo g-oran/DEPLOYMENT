@@ -1,0 +1,15 @@
+<apex:page >
+    <apex:pageBlock title="EXPRESSIONS">
+        <apex:pageBlockSection title="Expression Examples">
+            <p>My name is {!$User.FirstName}!</p>
+            <p>My last name is {!$User.LastName}!</p>
+            <p>My Organization name is {!$Organization.Name}!</p>
+            <p>I am {! $User.FirstName & ' ' & $User.LastName}</p>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Formula Examples">
+            <p>Today is {!TODAY()}</p>
+            <p>Today is {!DAY(TODAY())}</p>
+            <p>Today is {!IF(WEEKDAY(TODAY())=2, "MONDAY", "NULL")}</p>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

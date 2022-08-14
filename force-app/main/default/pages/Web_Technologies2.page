@@ -1,0 +1,19 @@
+<apex:page >
+   <apex:includeScript value="{!$Resource.myjs}"/>
+   <apex:stylesheet value="{!$Resource.Mycss}"/> 
+<apex:form >
+    <apex:pageBlock title="Web Techologies-2">
+        <apex:pageBlockSection >
+            <body>
+                <div>
+                    <h1>This is a Header</h1>
+                    <p>This is a Paragraph</p>
+                    <apex:commandButton value="Click Me!" onclick="{myFunction()}"/>
+                </div>
+            </body>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    </apex:form>
+    <apex:iframe src="https://www.clarusway.com" height="500px" width="300px" frameborder="true"/>
+    <apex:iframe src="https://www.clarusway.com" height="500px" width="300px" frameborder="true"/>
+</apex:page>

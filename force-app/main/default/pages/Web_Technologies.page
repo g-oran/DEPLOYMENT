@@ -1,0 +1,24 @@
+<apex:page >
+    <apex:pageBlock title="Web Technologies">
+        <apex:pageBlockSection >
+            <head>
+                <style>
+                    body{
+                        background-color: navy;
+                    }
+                    h1, p {
+                        background-color: lightgreen;
+                        color: blue;
+                        font-size: 20px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div>
+                    <h1>This is a Header</h1>
+                    <p>This is a Paragraph</p>
+                </div>
+            </body>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

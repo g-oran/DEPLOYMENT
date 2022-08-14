@@ -1,0 +1,30 @@
+<!-- This a test comment -->
+
+<apex:page >
+    <apex:form >
+    <p>First Name: <apex:inputText styleClass="test"/></p>
+    <p>Last Name: <apex:inputText styleClass="test"/></p>
+    <p>SSN Nu:<apex:inputSecret styleClass="test"/></p>
+    <p>Are you a Developer? <apex:inputCheckbox styleClass="test"/></p>
+    <p>Write your experience:<apex:inputTextarea styleClass="test"/></p>
+    <br></br>
+    <br></br>
+    <br></br>
+    <p>Upload your resume: <apex:inputFile value="Upload File" styleClass="test"></apex:inputFile></p>
+    <br></br>
+    <apex:outputLabel >Click here to see Salesforce webpage: </apex:outputLabel>
+    <apex:outputLink value="https://www.salesforce.com">Salesforce</apex:outputLink>
+    <p><apex:commandButton value="Save"/>
+    <apex:commandButton value="Cancel"/></p>
+     <style>
+     .test{
+         position: absolute;
+         left: 150px;
+         color: blue;
+         background-color: grey;
+     }
+     </style>
+    </apex:form>
+    <!-- This a test comment -->
+    <apex:pageMessage severity="error" strength="3" summary="This is a warning or error."></apex:pageMessage>
+</apex:page>

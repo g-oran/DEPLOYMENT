@@ -1,0 +1,10 @@
+                <style>
+                    body{
+                        background-color: navy;
+                    }
+                    h1, p {
+                        background-color: lightgreen;
+                        color: blue;
+                        font-size: 20px;
+                    }
+                </style>

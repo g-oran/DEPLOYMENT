@@ -1,0 +1,14 @@
+<apex:page controller="NewCustomController">
+<apex:form >
+    <apex:pageBlock title="New Custom Controller">
+        <apex:pageBlockSection >
+            <apex:outputField value="{!acc.Id}"/>
+            <apex:inputField value="{!acc.Name}"/>
+            <apex:inputField value="{!acc.Industry}"/>
+        </apex:pageBlockSection>
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save" action="{!save}"/>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

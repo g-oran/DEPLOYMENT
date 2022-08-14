@@ -1,0 +1,11 @@
+<apex:page standardController="Account" extensions="ControllerExample,ControllerExample2">
+<apex:form >
+    <apex:pageBlock title="Controller Extension">
+        <apex:pageBlockSection >
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputText value="{!greeting}"/><br/>
+        </apex:pageBlockSection>
+        Today’s Date is &nbsp;  <apex:outputText value="{!date}"/>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

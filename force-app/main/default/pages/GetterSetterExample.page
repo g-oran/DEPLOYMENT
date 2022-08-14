@@ -1,0 +1,12 @@
+<apex:page controller="GetterSetterExample">
+<apex:form >
+    <apex:pageBlock title="Getter Setter Example">
+        <apex:pageBlockSection >
+            First Name: <apex:inputText value="{!fname}"/>
+            Last Name: <apex:inputText value="{!lname}"/>
+            <apex:commandButton value="Merge" action="{!concat}"/><br/><br/>
+        </apex:pageBlockSection>
+           Full Name:  <apex:outputText value="{!fullname}"/>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

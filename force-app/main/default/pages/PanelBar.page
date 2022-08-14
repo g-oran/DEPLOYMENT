@@ -1,0 +1,16 @@
+<apex:page >
+    <apex:panelBar >
+        <apex:panelBarItem label="First Panel Bar">
+            <p>Hello</p>
+            <p>World</p>
+        </apex:panelBarItem>
+        <apex:panelBarItem label="Second Panel Bar">
+            <p>Hello</p>
+            <p>Moon</p>
+        </apex:panelBarItem>
+        <apex:panelBarItem label="Third Panel Bar">
+            <p>Hello</p>
+            <p>Mars</p>
+        </apex:panelBarItem>
+    </apex:panelBar>
+</apex:page>
